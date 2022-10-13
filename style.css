@@ -3,9 +3,36 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-
+.container{
+    width: 50%;
+    margin: 2rem auto;
+    letter-spacing: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+    
+    
+ 
+}
+input{
+    text-align: center;
+    width:180px;
+    padding: 10px;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
 textarea{
     resize: none;
- 
+    border: none;
+    height: 20%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+   
+}
+button{
+    background-color: rgba(0, 255, 255, 0.37);
+    cursor: pointer;
+    padding: 0.5rem;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
