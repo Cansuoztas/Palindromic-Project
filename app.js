@@ -6,7 +6,7 @@ const tex1 = document.querySelector(".tex1");
 const tex2 = document.querySelector(".tex2");
 
 but1.addEventListener("click", () => {
-  tex1.innerHTML = "";
+  tex1.innerHTML= ""
 
   let a = +in1.value;
   let b = +in2.value;
@@ -25,17 +25,17 @@ but1.addEventListener("click", () => {
   }
 });
 but2.addEventListener("click", () => {
-   tex2.innerHTML=""
+    tex2.innerHTML = "";
   let a = +in1.value;
   let b = +in2.value;
   for (let i = a; i <= b; i++) {
-     if (perfectNumber(i)) {
-       tex2.innerHTML +=`${+i}                      `;
-     }
+    if (perfectNumber(i)) {
+    //   console.log("first");
+      tex2.innerHTML += `${+i}                      `;
+    }
   }
-  
-
 });
+
 function perfectNumber(num) {
   let count = 0;
   for (let i = 1; i < num; i++) {
